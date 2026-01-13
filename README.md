@@ -6,25 +6,28 @@ Framework de prueba que implementa Playwright con Cucumber.
 
 La estructura de las carpetas se encuentra de la siguiente manera:
 
-.
 src/test
-├── features
-│   └── example.feature
-├── steps
-│   └── example.steps.ts
-├── support
-│   ├── hooks.ts
-│   └── world.ts
+
+├── features ── example.feature
+
+├── steps ── example.steps.ts
+
+├── support ── hooks.ts | world.ts
+
 ├── cucumber.json
+
 ├── tsconfig.json
+
 ├── package.json
+
 ├── cucumber-report.html
-├── .github/workflows
-│   └── playwright.yml
-├── tests
-│   └── example.spec.ts
-├── playwright-report
-│   └── index.html
+
+├── .github/workflows ── playwright.yml
+
+├── tests ── example.spec.ts
+
+├── playwright-report ── index.html
+
 └── playwright.config.ts
 
 ### Requerimiento previo
@@ -94,5 +97,4 @@ El proyecto utiliza [html:cucumber-report.html] para generar reportes de los sce
 
 ## Liciencia
 
-MIT License
----
+- MIT License
