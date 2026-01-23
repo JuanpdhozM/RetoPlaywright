@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.skip('has title', async ({ page }) => {
+test('has title', async ({ page }) => {
   await page.goto('https://www.mercadolibre.com.co/');
   await expect(page).toHaveTitle("Mercado Libre Colombia - Envíos Gratis en el día");
 
